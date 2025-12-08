@@ -36,7 +36,7 @@ nav ul {
     display: flex;
     align-items: center;
     transition: 0.3s ease;
-    padding: 6px 6px;
+    padding: 6px 0px;
     text-decoration: none;
     border-radius: 6px;
 }
@@ -90,7 +90,7 @@ nav ul {
 
 .nav-item:hover a {
     background-color: #333;
-    padding-right: 70px; /* miejsce na napis */
+    padding-right: 15px; /* miejsce na napis */
 }
 
 .nav-item:hover img {
@@ -98,6 +98,45 @@ nav ul {
 }
 
 .nav-item:hover .nav-text {
+    opacity: 1;
+    transform: translateX(0);
+}
+.nav-item1:hover a {
+    background-color: #333;
+    padding-right: 15px; /* miejsce na napis */
+}
+
+.nav-item1:hover img {
+    transform: translateX(-6px);
+}
+
+.nav-item1:hover .nav-text {
+    opacity: 1;
+    transform: translateX(0);
+}
+.nav-item2:hover a {
+    background-color: #333;
+    padding-right: 15px; /* miejsce na napis */
+}
+
+.nav-item2:hover img {
+    transform: translateX(-6px);
+}
+
+.nav-item2:hover .nav-text {
+    opacity: 1;
+    transform: translateX(0);
+}
+.nav-item3:hover a {
+    background-color: #333;
+    padding-right: 15px; /* miejsce na napis */
+}
+
+.nav-item3:hover img {
+    transform: translateX(-6px);
+}
+
+.nav-item3:hover .nav-text {
     opacity: 1;
     transform: translateX(0);
 }
@@ -159,5 +198,3 @@ button {
 button:hover {
     background: #ff1f1f;
 }
-
-
