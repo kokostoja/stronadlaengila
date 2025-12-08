@@ -198,4 +198,14 @@ button {
 button:hover {
     background: #ff1f1f;
 }
+span {
+    font-size: 0px;
+    transition: font-size 0.3s;
+}
 
+.nav-item:hover span,
+.nav-item1:hover span,
+.nav-item2:hover span,
+.nav-item3:hover span {
+    font-size: 16px;
+}
