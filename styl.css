@@ -44,6 +44,42 @@ nav ul {
 .nav-item img {
     transition: transform 0.3s;
 }
+.nav-item1 a {
+    display: flex;
+    align-items: center;
+    transition: 0.3s ease;
+    padding: 6px 6px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.nav-item1 img {
+    transition: transform 0.3s;
+}
+.nav-item2 a {
+    display: flex;
+    align-items: center;
+    transition: 0.3s ease;
+    padding: 6px 6px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.nav-item2 img {
+    transition: transform 0.3s;
+}
+.nav-item3 a {
+    display: flex;
+    align-items: center;
+    transition: 0.3s ease;
+    padding: 6px 6px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.nav-item3 img {
+    transition: transform 0.3s;
+}
 
 .nav-text {
     opacity: 0;
@@ -123,3 +159,5 @@ button {
 button:hover {
     background: #ff1f1f;
 }
+
+
