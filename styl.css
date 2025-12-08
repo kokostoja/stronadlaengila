@@ -36,7 +36,7 @@ nav ul {
     display: flex;
     align-items: center;
     transition: 0.3s ease;
-    padding: 6px 0px;
+    padding: 6px 6px;
     text-decoration: none;
     border-radius: 6px;
 }
@@ -198,3 +198,4 @@ button {
 button:hover {
     background: #ff1f1f;
 }
+
